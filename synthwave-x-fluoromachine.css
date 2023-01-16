@@ -65,11 +65,12 @@
 .editor .content,
 .monaco-editor {
 	background-color: transparent !important;
-	background-image: linear-gradient(to bottom, #000000 75%, #3d0b43);
+	background-image: linear-gradient(to bottom, #000000 65%, #3d0b43);
 	background-position: top;
 	background-repeat: no-repeat;
 	position: relative;
 }
+
 
 .editor-container {
 	position: relative;
