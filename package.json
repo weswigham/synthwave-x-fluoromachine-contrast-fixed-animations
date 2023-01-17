@@ -1,14 +1,14 @@
 {
-    "name": "synthwave-x-fluoromachine-epic-animations",
-    "displayName": "Synthwave x Fluoromachine & epic animations",
+    "name": "synthwave-x-fluoromachine-contrast",
+    "displayName": "Synthwave x Fluoromachine & epic animations & contrast",
     "description": "This theme brings crazy 80's animations into your VS code 🚀🎉",
-    "version": "1.4.13",
-    "author": "Ilja Leyberman",
-    "publisher": "TheCodemonkey",
+    "version": "1.0.0",
+    "author": "Colt Willcox",
+    "publisher": "coltwillcox",
     "icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/thecodemonkey/synthwave-x-fluoromachine-epic-animations/"
+        "url": "https://github.com/coltwillcox/synthwave-x-fluoromachine-contrast"
     },
     "engines": {
         "vscode": "^1.33.0"
@@ -20,7 +20,12 @@
         "synthwave",
         "fluoromachine",
         "animated",
-        "theme"
+        "theme",
+		"high",
+		"contrash",
+		"violet",
+		"dark",
+		"glow"
     ],
     "categories": [
         "Themes"
@@ -28,7 +33,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Synthwave x Fluoromachine & epic animations",
+                "label": "Synthwave x Fluoromachine & epic animations & contrast",
                 "uiTheme": "vs-dark",
                 "path": "./themes/synthwave-x-fluoromachine.json"
             }
@@ -39,6 +44,6 @@
         "publish": "vsce publish"
     },
     "dependencies": {
-        "vsce": "^1.100.1"
+        "vsce": "^2.15.0"
     }
 }
