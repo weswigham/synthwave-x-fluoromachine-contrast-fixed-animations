@@ -44,8 +44,8 @@ On Mac it might look something like the snippet below:
   "vscode_custom_css.imports": [
     "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast/synthwave-x-fluoromachine.css",
     "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast/epic-80s-transitions.css",
-	"file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast/logo.css"
-    ]
+    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast/logo.css"
+  ]
 }
 
 Windows might resemble:
@@ -54,8 +54,8 @@ Windows might resemble:
   "vscode_custom_css.imports": [
     "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast/synthwave-x-fluoromachine.css",
     "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast/epic-80s-transitions.css",
-	"file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast/logo.css"
-    ]
+    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast/logo.css"
+  ]
 }
 ```
 
@@ -76,13 +76,14 @@ Windows might resemble:
 
 ## Font
 
-The font being used in the screenshot above is [Victor Mono SemiBold](https://rubjo.github.io/victor-mono/).
+The font being used in the screenshot above is [Victor Mono](https://rubjo.github.io/victor-mono/).
 
 <br/><br/>
 
 ## Themes
 
 Icon theme is [Sweet vscode Icons](https://marketplace.visualstudio.com/items?itemName=EliverLara.sweet-vscode-icons).
+<br/>
 XFCE/GTK theme is [Sweet](https://www.xfce-look.org/p/1253385).
 
 <br/><br/>
