@@ -96,4 +96,4 @@ All contributions are welcome, including issues, new docs as well as updates and
 
 ## License
 
-i ❤️ MIT
+I 💜 MIT
