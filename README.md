@@ -13,13 +13,13 @@ _This is a fork of @thecodemonkey's <a href="https://github.com/thecodemonkey/sy
 <br/>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1646017/136690694-79e9973b-6d55-40cb-b8d1-4820d2a4ee35.gif" /><br/>
-  <i style="font-size: .8em">legendary TRON underground</i>
+  <img src="https://raw.githubusercontent.com/coltwillcox/synthwave-x-fluoromachine-contrast/master/screens/main.gif" /><br/>
+  <i style="font-size: .8em">Main screen with animated background, logo and shiny text</i>
 </p>
 <br/><br/>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1646017/136690891-7bcca587-9489-4a40-ba78-e3b851624dd8.gif" /><br/>
-  <i  style="font-size: .8em">epic neon glowing tooltips and folding effects</i>
+  <img src="https://raw.githubusercontent.com/coltwillcox/synthwave-x-fluoromachine-contrast/master/screens/editor.gif" /><br/>
+  <i style="font-size: .8em">Editor sceen with glowing cursor and selection</i>
 </p>
 
 <br/> <br/>
