@@ -16,7 +16,7 @@ _This is a fork of @thecodemonkey's <a href="https://github.com/thecodemonkey/sy
 <br/><br/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/coltwillcox/synthwave-x-fluoromachine-contrast/master/screens/editor.gif" /><br/>
-  <i style="font-size: .8em">Editor sceen with glowing cursor and selection</i>
+  <i style="font-size: .8em">Editor screen with glowing cursor and selection</i>
 </p>
 
 <br/> <br/>
