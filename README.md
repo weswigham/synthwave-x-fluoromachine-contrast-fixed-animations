@@ -1,10 +1,7 @@
 <h1 align="center" >Synthwave x Fluoromachine & epic animations & contrast<br/><br/>
-  <img src="https://img.shields.io/visual-studio-marketplace/i/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%2340eeff&logo=visualstudio&logoColor=%2340eeff&style=flat-square"/>
-  <img src="https://img.shields.io/visual-studio-marketplace/d/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%2340eeff&logo=visualstudio&logoColor=%2340eeff&style=flat-square"/>
-  <img src="https://img.shields.io/visual-studio-marketplace/last-updated/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%2340eeff&logo=visualstudio&logoColor=%2340eeff&style=flat-square"/>
 </h1>
 
-<p align="center"><strong>This theme brings crazy 80's animations into your VS code 🚀🎉 </strong></p>
+<p align="center"><strong>This theme brings crazy 80's animations into your VS Code 🚀🎉 </strong></p>
 
 <br/><br/>
 
@@ -37,8 +34,8 @@ A hassle-free installation is already in development.
 Until then, the following steps must be performed to install the theme:
 
 1. Install this theme
-2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) vscode extension
-3. Link the CSS file from this extension in your .vscode/settings.json:
+2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) VS Code extension
+3. Link the CSS file from this extension in your VS Code settings.json:
 
 ```
 On Mac it might look something like the snippet below:
@@ -63,8 +60,17 @@ Windows might resemble:
 ```
 
 4. `epic-80s-transitions.css` is optional and brings crazy 80's animations into your VS Code!
-5. `logo.css` is aslo optional and changes VS Code logo.
-5. From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates.
+5. `logo.css` is also optional and changes VS Code logo.
+6. Edit settings.json and add:
+
+```
+"workbench.colorCustomizations": {
+	"minimap.background": "#00000000",
+	"tab.inactiveBackground": "#0c0e14"
+}
+```
+
+7. From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates.
 
 <br/><br/>
 
@@ -74,15 +80,16 @@ The font being used in the screenshot above is [Victor Mono SemiBold](https://ru
 
 <br/><br/>
 
-## Contibution
+## Themes
 
-All contributions are welcome, including issues, new docs as well as updates and tweaks, blog posts, workshops, and more.
+Icon theme is [Sweet vscode Icons](https://marketplace.visualstudio.com/items?itemName=EliverLara.sweet-vscode-icons).
+XFCE/GTK theme is [Sweet](https://www.xfce-look.org/p/1253385).
 
 <br/><br/>
 
-## Contact
+## Contibution
 
-Write me on <a href="https://twitter.com/chillya">twitter</a>.
+All contributions are welcome, including issues, new docs as well as updates and tweaks, blog posts, workshops, and more.
 
 <br/><br/>
 
