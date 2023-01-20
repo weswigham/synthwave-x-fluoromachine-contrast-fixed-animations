@@ -56,7 +56,7 @@
 
 .monaco-editor .cursor {
 	box-shadow: 0 0 15px 2px #00c3ff;
-	animation: cursor 0.5s infinite linear;
+	animation: cursor 1s infinite ease-in-out;
 }
 
 .editor-group-container:after {
@@ -66,7 +66,7 @@
 .view-line .inline-folded:after {
 	color: yellow;
 	border-radius: 5px;
-	animation: colapse 0.5s linear;
+	animation: colapse 2s linear;
 }
 
 .monaco-editor .line-numbers.active-line-number {
@@ -76,26 +76,6 @@
 
 .monaco-editor .minimap-shadow-visible {
 	box-shadow: none !important;
-}
-
-/* Content: 'do epic shit...'; */
-.editor-container::after {
-	display: flex;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	content: ' ';
-	font-weight: bold;
-	font-size: 5em;
-	font-family: 'Tourney', cursive;
-	color: #fc28a822;
-	position: absolute;
-	bottom: 40px;
-	width: 100%;
-	overflow-x: hidden;
-	height: 120px;
-	text-shadow: 0 0 30px #fc28a8;
-	animation: cnt 10s infinite linear;
 }
 
 .monaco-list {
@@ -158,12 +138,15 @@ dd .monaco-keybinding .monaco-keybinding-key {
 }
 
 @keyframes cursor {
-	0% {
-		box-shadow: 0 0 5px 0 #00c3ff;
-	}
-	100% {
-		box-shadow: 0 0 35px 5px #00c3ff;
-	}
+	0% {  
+        box-shadow: 0 0 5px 0 #00c3ff;      
+    }
+    50% {
+        box-shadow: 0 0 35px 5px #00c3ff;
+    }
+    100% {
+        box-shadow: 0 0 5px 0 #00c3ff;
+    }
 }
 
 @keyframes flight {
@@ -172,21 +155,6 @@ dd .monaco-keybinding .monaco-keybinding-key {
 	}
 	100% {
 		transform: perspective(100px) rotateX(60deg) translateY(20px);
-	}
-}
-
-@keyframes cnt {
-	0% {
-		bottom: 150px;
-		font-size: 0.1em;
-		color: #fc28a822;
-		text-shadow: 0 0 5px #fc28a811;
-	}
-	100% {
-		bottom: -400px;
-		font-size: 20em;
-		color: #fc28a855;
-		text-shadow: 0 0 30px #fc28a8;
 	}
 }
 
