@@ -1,49 +1,46 @@
 {
-    "name": "synthwave-x-fluoromachine-contrast",
-    "displayName": "Synthwave x Fluoromachine & epic animations & contrast",
-    "description": "This theme brings crazy 80's animations into your VS code 🚀🎉",
-    "version": "1.0.0",
-    "author": "Colt Willcox",
-    "publisher": "coltwillcox",
-    "icon": "icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/coltwillcox/synthwave-x-fluoromachine-contrast"
-    },
-    "engines": {
-        "vscode": "^1.33.0"
-    },
-    "keywords": [
-        "retro",
-        "80s",
-        "vaporwave",
-        "synthwave",
-        "fluoromachine",
-        "animated",
-        "theme",
-		"high",
-		"contrash",
+	"name": "synthwave-x-fluoromachine-contrast",
+	"displayName": "Synthwave x Fluoromachine & epic animations & contrast",
+	"description": "This theme brings crazy 80's animations into your VS code 🚀🎉",
+	"version": "1.0.1",
+	"author": "Colt Willcox",
+	"publisher": "coltwillcox",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/coltwillcox/synthwave-x-fluoromachine-contrast"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"keywords": [
+		"retro",
+		"80s",
+		"vaporwave",
+		"synthwave",
+		"fluoromachine",
+		"animated",
+		"theme",
 		"violet",
-		"dark",
-		"glow"
-    ],
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Synthwave x Fluoromachine & epic animations & contrast",
-                "uiTheme": "vs-dark",
-                "path": "./themes/synthwave-x-fluoromachine.json"
-            }
-        ]
-    },
-    "scripts": {
-        "package": "vsce package",
-        "publish": "vsce publish"
-    },
-    "dependencies": {
-        "vsce": "^2.15.0"
-    }
+		"dark"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Synthwave x Fluoromachine & epic animations & contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/synthwave-x-fluoromachine.json"
+			}
+		]
+	},
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
+	"dependencies": {
+		"vsce": "^2.15.0"
+	}
 }
