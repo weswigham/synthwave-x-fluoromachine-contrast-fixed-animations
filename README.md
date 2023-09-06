@@ -42,9 +42,9 @@ On Mac it might look something like the snippet below:
 
 {
   "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.1/synthwave-x-fluoromachine.css",
-    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.1/epic-80s-transitions.css",
-    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.1/logo.css"
+    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/synthwave-x-fluoromachine.css",
+    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/epic-80s-transitions.css",
+    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/logo.css"
   ]
 }
 
@@ -52,11 +52,15 @@ Windows might resemble:
 
 {
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.1/synthwave-x-fluoromachine.css",
-    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.1/epic-80s-transitions.css",
-    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.1/logo.css"
+    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/synthwave-x-fluoromachine.css",
+    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/epic-80s-transitions.css",
+    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/logo.css"
   ]
 }
+
+Low spec machines (or just to disable animations):
+Instead of "epic-80s-transitions.css" use "epic-80s-transitions-low.css"
+
 ```
 
 4. `epic-80s-transitions.css` is optional and brings crazy 80's animations into your VS Code!
