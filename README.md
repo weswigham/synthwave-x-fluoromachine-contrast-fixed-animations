@@ -42,8 +42,9 @@ On Mac it might look something like the snippet below:
 
 {
   "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-2.0.0/logo.css",
-    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-2.0.0/synthwave.css"
+    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/synthwave-x-fluoromachine.css",
+    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/epic-80s-transitions.css",
+    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/logo.css"
   ]
 }
 
@@ -51,18 +52,29 @@ Windows might resemble:
 
 {
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-2.0.0/logo.css",
-    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-2.0.0/synthwave.css"
+    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/synthwave-x-fluoromachine.css",
+    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/epic-80s-transitions.css",
+    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/logo.css"
   ]
 }
 
 Low spec machines (or just to disable animations):
-Instead of "synthwave.css" use "synthwave-lowspec.css"
+Instead of "epic-80s-transitions.css" use "epic-80s-transitions-low.css"
 
 ```
 
-4. `logo.css` is optional and changes VS Code logo.
-5. From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates.
+4. `epic-80s-transitions.css` is optional and brings crazy 80's animations into your VS Code!
+5. `logo.css` is also optional and changes VS Code logo.
+6. Edit settings.json and add:
+
+```
+"workbench.colorCustomizations": {
+	"minimap.background": "#00000000",
+	"tab.inactiveBackground": "#0c0e14"
+}
+```
+
+7. From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates.
 
 <br/><br/>
 
