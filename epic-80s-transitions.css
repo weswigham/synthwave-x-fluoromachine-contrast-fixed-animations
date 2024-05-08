@@ -33,6 +33,7 @@
 
 .monaco-editor .monaco-hover.hidden {
 	opacity: 0;
+	pointer-events: none;
 }
 
 .monaco-editor .monaco-hover::after {
@@ -46,6 +47,7 @@
 	width: 100%;
 	background-image: linear-gradient(to right, #fc28a8, #03edf9, #fc28a8, #03edf9, #fc28a8);
 	animation: neonline 2s infinite;
+	pointer-events: none;
 }
 
 .monaco-editor .selected-text {
@@ -61,12 +63,14 @@
 
 .editor-group-container:after {
 	animation: flight 2s infinite linear;
+	pointer-events: none;
 }
 
 .view-line .inline-folded:after {
 	color: yellow;
 	border-radius: 5px;
 	animation: colapse 2s linear;
+	pointer-events: none;
 }
 
 .monaco-editor .line-numbers.active-line-number {
