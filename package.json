@@ -40,7 +40,7 @@
 		"package": "vsce package",
 		"publish": "vsce publish"
 	},
-	"dependencies": {
+	"devDependencies": {
 		"vsce": "^2.15.0"
 	}
 }
