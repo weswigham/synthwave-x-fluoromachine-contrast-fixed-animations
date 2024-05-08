@@ -16,7 +16,7 @@ _This is a fork of @thecodemonkey's <a href="https://github.com/thecodemonkey/sy
 <br/><br/>
 <p align="center">
   <img src="https://raw.githubusercontent.com/coltwillcox/synthwave-x-fluoromachine-contrast/master/screens/editor.png" /><br/>
-  <i style="font-size: .8em">Editor screen with opened terminal and <a href="https://github.com/robole/fetching">fetching art</a></i>
+  <i style="font-size: .8em">Editor screen opened terminal and <a href="https://github.com/robole/fetching">fetching art</a></i>
 </p>
 
 <br/> <br/>
