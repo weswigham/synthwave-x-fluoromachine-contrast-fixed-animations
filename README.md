@@ -1,21 +1,21 @@
-<h1 align="center" >Synthwave x Fluoromachine & epic animations & contrast<br/><br/>
+<h1 align="center" >Synthwave x Fluoromachine & fixed epic animations & contrast<br/><br/>
 </h1>
 
 <p align="center"><strong>This theme brings crazy 80's animations into your VS Code 🚀🎉 </strong></p>
 
 <br/><br/>
 
-_This is a fork of @thecodemonkey's <a href="https://github.com/thecodemonkey/synthwave-x-fluoromachine-epic-animations">synthwave-x-fluoromachine-epic-animations</a>, which is a fork of <a href="https://github.com/webrender/synthwave-x-fluoromachine">synthwave-x-fluoromachine</a>, which is also fork of @robbowen's [Synthwave '84 theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode), merged with @fullerenedream's [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) theme and @74th's [Monokai Charcoal high contrast](https://github.com/74th/vscode-monokaicharcoal) purple theme for VSCode._
+_This is a fork of v1.0.2 of @coltwillcox's <a href="https://github.com/coltwillcox/synthwave-x-fluoromachine-contrast">Synthwave x Fluoromachine & epic animations & contrast</a>, which is a fork of @thecodemonkey's <a href="https://github.com/thecodemonkey/synthwave-x-fluoromachine-epic-animations">synthwave-x-fluoromachine-epic-animations</a>, which is a fork of <a href="https://github.com/webrender/synthwave-x-fluoromachine">synthwave-x-fluoromachine</a>, which is also fork of @robbowen's [Synthwave '84 theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode), merged with @fullerenedream's [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) theme and @74th's [Monokai Charcoal high contrast](https://github.com/74th/vscode-monokaicharcoal) purple theme for VSCode._
 
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/coltwillcox/synthwave-x-fluoromachine-contrast/master/screens/main.gif" /><br/>
+  <img src="https://raw.githubusercontent.com/weswigham/synthwave-x-fluoromachine-contrast-fixed-animations/master/screens/main.gif" /><br/>
   <i style="font-size: .8em">Main screen with animated background, logo and shiny text</i>
 </p>
 <br/><br/>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/coltwillcox/synthwave-x-fluoromachine-contrast/master/screens/editor.gif" /><br/>
+  <img src="https://raw.githubusercontent.com/weswigham/synthwave-x-fluoromachine-contrast-fixed-animations/master/screens/editor.gif" /><br/>
   <i style="font-size: .8em">Editor screen with glowing cursor and selection</i>
 </p>
 
@@ -30,8 +30,7 @@ The job of a software developer is hard and often too serious. You always have t
 ## Installation
 
 Unfortunately, the current installation is a bit complicated.
-A hassle-free installation is already in development.
-Until then, the following steps must be performed to install the theme:
+The following steps must be performed to install the theme:
 
 1. Install this theme
 2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) VS Code extension
@@ -42,9 +41,9 @@ On Mac it might look something like the snippet below:
 
 {
   "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/synthwave-x-fluoromachine.css",
-    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/epic-80s-transitions.css",
-    "file:///Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/logo.css"
+    "file:///Users/{your username}/.vscode/extensions/weswigham.synthwave-x-fluoromachine-contrast-fixed-animations-1.0.0/synthwave-x-fluoromachine.css",
+    "file:///Users/{your username}/.vscode/extensions/weswigham.synthwave-x-fluoromachine-contrast-fixed-animations-1.0.0/epic-80s-transitions.css",
+    "file:///Users/{your username}/.vscode/extensions/weswigham.synthwave-x-fluoromachine-contrast-fixed-animations-1.0.0/logo.css"
   ]
 }
 
@@ -52,9 +51,9 @@ Windows might resemble:
 
 {
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/synthwave-x-fluoromachine.css",
-    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/epic-80s-transitions.css",
-    "file:///C:/Users/{your username}/.vscode/extensions/coltwillcox.synthwave-x-fluoromachine-contrast-1.0.2/logo.css"
+    "file:///C:/Users/{your username}/.vscode/extensions/weswigham.synthwave-x-fluoromachine-contrast-fixed-animations-1.0.0/synthwave-x-fluoromachine.css",
+    "file:///C:/Users/{your username}/.vscode/extensions/weswigham.synthwave-x-fluoromachine-contrast-fixed-animations-1.0.0/epic-80s-transitions.css",
+    "file:///C:/Users/{your username}/.vscode/extensions/weswigham.synthwave-x-fluoromachine-contrast-fixed-animations-1.0.0/logo.css"
   ]
 }
 
